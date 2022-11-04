@@ -751,7 +751,7 @@ add_dependency_project_package(libffi 3.3.0)
 ExternalProject_Add(python
     DEPENDS bzip2 openssl sqlite zlib expat libffi xz
     GIT_REPOSITORY https://github.com/fuzzard/cpython
-    GIT_TAG bfe7d208efab76b0455fb023b46ec8c468f9974a
+    GIT_TAG c5a67f25a537ea7b94e01addc42e5a29a609022b
     GIT_SHALLOW ON
     CMAKE_ARGS
         ${ADDITIONAL_ARGS}
